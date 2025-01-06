@@ -20,7 +20,7 @@ function MoviesPage() {
         <h1 className="text-2xl text-slate-50 font-bold">MoviesFlix</h1>
         <Navbar />
       </header>
-      <div className="w-full p-5 flex gap-6 flex-wrap">
+      <div className="w-full py-5 px-8 flex gap-6 flex-wrap">
         {allMovies.map((movie) => (
           <div
             key={movie.id}
